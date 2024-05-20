@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: SaurabhPandey9752/gitartwork@v1
+      - uses: gitartwork-SVG/gitartwork@v1
         with:
           # Use this username's contribution graph  
           user_name: SaurabhPandey9752
           # Text on contribution graph 
           text: SAURABH
-      - uses: SaurabhPandey9752/simple-push-action@v1
+      - uses: gitartwork-SVG/simple-push-action@v1
